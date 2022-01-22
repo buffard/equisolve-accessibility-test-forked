@@ -1,0 +1,41 @@
+/* Color contrast issues */
+.main-nav ul li a:hover, .main-nav ul li a:active, .main-nav ul li a:focus {
+    color: #2A8457;
+    text-decoration: underline;
+}
+
+.btn {
+    background: #757575;
+}
+
+.btn:hover, .btn:active, .btn:focus {
+    background: #fff;
+    color: #757575;
+    border: 2px solid #757575;
+}
+
+a {
+    color: #277C52;
+}
+
+main a:hover, main a:active, main a:focus {
+    color:#757575;
+}
+
+.ct-series-a .ct-slice-pie, .ct-series-a .ct-slice-donut-solid, .ct-series-a .ct-area{
+    fill:#2A8457;
+}
+
+.ct-series-c .ct-slice-pie, .ct-series-c .ct-slice-donut-solid, .ct-series-c .ct-area {
+    fill: #757575;
+}
+
+.ct-label {
+    color:#FFFFFF;
+    fill: #FFFFFF;
+    font-size: 0.9rem;
+}
+
+/* P { 
+    text-align: left 
+} */
